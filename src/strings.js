@@ -1,9 +1,9 @@
-function sayHello (string) {
-  // your code here
+const sayHello = (string) =>{
+  return 'Hello, ' + string + '!';
 };
 
 function uppercase (string) {
-  // your code here
+  
 };
 
 function lowercase (string) {
