@@ -1,6 +1,6 @@
-function add (a, b) {
-  // your code here
-}
+const add = (a, b) =>{
+    return a + b;
+};
 
 function subtract (a, b) {
   // your code here
