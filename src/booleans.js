@@ -1,27 +1,20 @@
-function negate(a) {
-  // your code here
+const negate = a => {
+  return !a
 };
 
-function both(a, b) {
-  // your code here
+const both = (a, b) => a && b;
+
+const either = (a, b) => a || b;
+
+const none = (a, b) => !(a || b);
+
+const one = (a, b) =>{
+  
 };
 
-function either(a, b) {
-  // your code here
+const truthiness = (a) =>{
+  if (a);
 };
-
-function none(a, b) {
-  // your code here
-};
-
-function one(a, b) {
-  // your code here
-};
-
-function truthiness(a) {
-  // your code here
-};
-
 function isEqual(a, b) {
   // your code here
 };
