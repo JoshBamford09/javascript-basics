@@ -8,13 +8,12 @@ const either = (a, b) => a || b;
 
 const none = (a, b) => !(a || b);
 
-const one = (a, b) =>{
-  
+const one = (a, b) => a !== b;
+
+const truthiness = a =>{
+  return !!a;
 };
 
-const truthiness = (a) =>{
-  if (a);
-};
 function isEqual(a, b) {
   // your code here
 };
