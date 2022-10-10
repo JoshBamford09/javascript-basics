@@ -14,40 +14,47 @@ const truthiness = a =>{
   return !!a;
 };
 
-function isEqual(a, b) {
-  // your code here
+const isEqual = (a, b) =>{
+  return a===b
 };
 
 function isGreaterThan(a, b) {
-  // your code here
+  return a > b;
 };
 
 function isLessThanOrEqualTo(a, b) {
-  // your code here
+  return a <= b;
 };
 
 function isOdd(a) {
-  // your code here
+  return a % 2 == 1;
 };
 
 function isEven(a) {
-  // your code here
+  return a % 2 == 0;
 };
 
 function isSquare(a) {
-  // your code here
+  return a >= 0 && Math.sqrt(a) % 1 === 0;
 };
 
 function startsWith(char, string) {
-  // your code here
-};
+  return string.startsWith(char);
+}
 
 function containsVowels(string) {
-  // your code here
+  if (string.match(/[aeiou]/gi)) {
+    return true;
+  }
+  return false;
 };
 
 function isLowerCase(string) {
-  // your code here
+  if (string == string.toLowerCase()) {
+    return true
+
+  }
+  return false;
 };
 
 module.exports = {
