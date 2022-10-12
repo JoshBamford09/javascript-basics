@@ -19,22 +19,25 @@ const removeNthElement = (index, array) => {
   return array.splice(index, 1);
 };
 
-function numbersToStrings(numbers) {
-  
+const numbersToStrings = numbers => {
+  return numbers.map((num) => {
+  return num.toString();
+  });
+};
 
+const uppercaseWordsInArray = strings =>{
+  return strings.map((string) => {
+    return string.toUpperCase();
+  });
 }
 
-const uppercaseWordsInArray = strings => {
-  // your code here
-};
-
 const reverseWordsInArray = strings => {
-  // your code here
+  return strings.split('').reverse();
 };
 
-const onlyEven = numbers => {
+function onlyEven(numbers) {
   // your code here
-};
+}
 
 const removeNthElement2 = (index, array) => {
   // your code here
