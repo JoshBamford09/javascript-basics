@@ -1,30 +1,28 @@
-const getNthElement = (index, array) => {
-  // your code here
+// eslint-disable-next-line no-lone-blocks
+const getNthElement = (index, array) => array[index];
+
+const arrayToCSVString = array =>{
+  return array.toString();
 };
 
-const arrayToCSVString = array => {
-  // your code here
-};
-
-const csvStringToArray = string => {
-  // your code here
-};
+const csvStringToArray = string => string.split(',');
 
 const addToArray = (element, array) => {
-  // your code here
+  array.push(element);
 };
 
 const addToArray2 = (element, array) => {
-  // your code here
+  return array.concat(element);
 };
 
 const removeNthElement = (index, array) => {
-  // your code here
+  return array.splice(index, 1);
 };
 
-const numbersToStrings = numbers => {
-  // your code here
-};
+function numbersToStrings(numbers) {
+  
+
+}
 
 const uppercaseWordsInArray = strings => {
   // your code here
