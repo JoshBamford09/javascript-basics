@@ -25,23 +25,22 @@ const numbersToStrings = numbers => {
   });
 };
 
-const uppercaseWordsInArray = strings =>{
-  return strings.map((string) => {
+const uppercaseWordsInArray = strings => {
+  return strings.map(string => {
     return string.toUpperCase();
   });
-}
-
-const reverseWordsInArray = strings => {
-  return strings.split('').reverse();
 };
 
-function onlyEven(numbers) {
-  // your code here
+function reverseWordsInArray(strings) {
+  const splitString = strings.split('');
+  const reverseArray = splitString.reverse();
+  const joinArray = reverseArray.join('');
+  return joinArray;
 }
 
-const removeNthElement2 = (index, array) => {
+function removeNthElement2(index, array) {
   // your code here
-};
+}
 
 const elementsStartingWithAVowel = strings => {
   // your code here
@@ -58,6 +57,8 @@ const sumNumbers = numbers => {
 const sortByLastLetter = strings => {
   // your code here
 };
+
+const onlyEven = strings => {};
 
 module.exports = {
   getNthElement,
