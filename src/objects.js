@@ -1,8 +1,8 @@
 const createPerson = (name, age) => {
- return {
+  return {
     name: name,
     age: age
- };
+  };
 };
 
 function getName(object) {
@@ -27,10 +27,11 @@ const getAges = people => {
 };
 
 const findByName = (name, people) => {
-  
+  const newPerson = people.filter(person => person.name === name);
+  return newPerson[0];
 };
 
-const findHondas = cars => {
+const findHondas = cars => cars.filter(car => car.manufacturer === 'Honda');
 
 const averageAge = people => {
   // your code here

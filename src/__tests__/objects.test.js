@@ -125,7 +125,7 @@ describe('getAges', () => {
 });
 
 describe('findByName', () => {
-  xit('returns the person with the given name', () => {
+  it('returns the person with the given name', () => {
     const jim = {
       name: 'Jim',
       age: 66
@@ -179,7 +179,7 @@ describe('findHondas', () => {
 });
 
 describe('averageAge', () => {
-  xit('returns the average age of the people in the list', () => {
+  it('returns the average age of the people in the list', () => {
     const john = {
       name: 'John',
       age: 60
